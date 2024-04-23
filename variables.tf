@@ -51,8 +51,8 @@ variable "rds_instance" {
   default = {
     allocated_storage   = 10
     engine              = "mysql"
-    engine_version      = "8.0.20"
-    instance_class      = "db.t2.micro"
+    engine_version      = "8.0.28"
+    instance_class      = "db.t3.micro"
     multi_az            = false
     name                = "mydb"
     skip_final_snapshot = true
